@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Media Collect Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./dist/main.css" />
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs@1.3.3/dist/interact.min.js"></script>
+  <script src="./dist/main.js"></script>
+</head>
+<body>
+  <main id="media-collect-board" class="page-media-collect-board">
+    <section>
+      <h1>Example</h1>
+      <figure>
+        <img src="https://placem.at/places?w=500&h=400" alt="example">
+        <figcaption>Example image</figcaption>
+      </figure>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, animi dolorem nulla harum sapiente voluptatum quos ratione aliquid eum corporis illum quo deserunt reiciendis cumque consequuntur laudantium beatae officia natus?</p>
+      <ol>
+        <li>Some item to do 1</li>
+        <li>Some item to do 2</li>
+        <li>Some item to do 3</li>
+        <li>Some item to do 4</li>
+      </ol>
+      <blockquote>Some pretty nice placeholder nouns for your site (people, places, and things), powered by imgix. Simple and flexible. Made with love by Paul Straw.</blockquote>
+      <ul>
+        <li>Nothing to do 1</li>
+        <li>Nothing to do 2</li>
+        <li>Nothing to do 3</li>
+      </ul>
+      <pre><code class="js">
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+    return process(block, true, 0x0F) +
+        ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+    console.log('undefined');
+  }
+}
+
+export  $initHighlight;
+      </code></pre>
+    </section>
+    <section></section>
+    <section>
+      <h1>Help Board</h1>
+      <h2>Keyboard Shortcuts</h2>
+      <dl class="hotkey-list">
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>enter</kbd></kbd></dt>
+        <dd>Edit as html</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>enter</kbd></kbd></dt>
+        <dd>Edit as markdown</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>esc</kbd></kbd></dt>
+        <dd>Cancel edit</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>enter</kbd></kbd></dt>
+        <dd>Done edit</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>s</kbd></kbd></dt>
+        <dd>Save to github</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>arrow</kbd></kbd></dt>
+        <dd>Move section in dom</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>arrow</kbd></kbd></dt>
+        <dd>Move section in view</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>n</kbd></kbd></dt>
+        <dd>Add new section</dd>
+      </dl>
+      <h2>Mouse Shortcuts</h2>
+      <dl class="hotkey-list">
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>click</kbd></kbd></dt>
+        <dd>Edit as html</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>click</kbd></kbd></dt>
+        <dd>Edit as markdown</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>drag</kbd></kbd></dt>
+        <dd>Move section in dom</dd>
+        <dt><kbd><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>drag</kbd></kbd></dt>
+        <dd>Move section in view</dd>
+      </dl>
+    </section>
+  </main>
+</body>
+</html>
